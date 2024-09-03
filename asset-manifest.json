@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/panote-app/static/css/main.8fd96abb.css",
+    "main.js": "/panote-app/static/js/main.17381deb.js",
+    "index.html": "/panote-app/index.html",
+    "static/media/delete_sweep.svg": "/panote-app/static/media/delete_sweep.b5deb50139f13125f4b45a0bdfbf513b.svg",
+    "static/media/write.svg": "/panote-app/static/media/write.3d4954aeba379d34f35ddece0de222d4.svg",
+    "static/media/delete.svg": "/panote-app/static/media/delete.ae00901d2c0e5ef80a2f0456e4c9bf15.svg",
+    "main.8fd96abb.css.map": "/panote-app/static/css/main.8fd96abb.css.map",
+    "main.17381deb.js.map": "/panote-app/static/js/main.17381deb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fd96abb.css",
+    "static/js/main.17381deb.js"
+  ]
+}
