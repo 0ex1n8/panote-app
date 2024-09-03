@@ -1,0 +1,132 @@
+.CreateNote {
+    height: 100vh;
+    background: #fefefe;
+}
+
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 2rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    color: #872341;
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+.title p {
+    margin-top: 0.75rem;
+    font-size: 1rem;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.inputs input {
+    font-size: 1rem;
+    font-weight: 600;
+    height: 1rem;
+    width: 330px;
+    padding: 2rem;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 10px 10px 0 0;
+}
+
+.inputs input:focus,
+.inputs textarea:focus {
+    outline: none;
+    background: #e0e0e0;
+}
+
+.inputs textarea {
+    width: 330px;
+    height: 20rem;
+    resize: none;
+    padding: 2rem;
+    font-size: 1rem;
+    background: #f5f5f5;
+    border: none;
+    text-align: justify;
+}
+
+.inputs button {
+    width: 330px;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0 0 20px 20px;
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.inputs button:hover {
+    background: #e0e0e0;
+}
+
+@media screen and (min-width: 1024px) {
+    .component {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 4rem 4rem;
+        gap: 4rem;
+    }
+
+    .title {
+        text-align: left;
+    }
+
+    .inputs textarea {
+        width: 500px;
+        height: 350px;
+    }
+    .inputs input,
+    .inputs button {
+        width: 500px;
+        height: 50px;
+    }
+
+    .title h1 {
+        font-size: 3.5rem;
+    }
+    .title p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .component {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs textarea {
+        width: 500px;
+        height: 350px;
+    }
+    .inputs input,
+    .inputs button {
+        width: 500px;
+        height: 50px;
+    }
+
+    .title h1 {
+        font-size: 3.5rem;
+    }
+    .title p {
+        font-size: 1.5rem;
+    }
+}

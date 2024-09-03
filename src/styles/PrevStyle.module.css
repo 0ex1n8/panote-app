@@ -1,0 +1,53 @@
+.NotePreview {
+    height: 100vh;
+}
+
+.preview {
+    margin: 4rem 2rem;
+}
+
+.title h1 {
+    white-space: wrap;
+    font-size: 1.5rem;
+    color: #872341;
+}
+.title p {
+    font-size: 0.75rem;
+}
+
+.body_p {
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .preview {
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 15rem;
+    }
+
+    .title h1 {
+        font-size: 2rem;
+    }
+    .title p {
+        font-size: 0.9rem;
+    }
+
+    .body_p {
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+    .title p {
+        font-size: 0.9rem;
+    }
+
+    .body_p {
+        font-size: 1.15rem;
+    }
+}
